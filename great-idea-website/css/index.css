@@ -73,14 +73,13 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-body {
+.container {
 	width: 900px;
 	margin: auto;
 }
 header {
-		border-bottom: 1px solid black;
-		margin: 20px 0;
-		padding: 20px 0;
+		margin: 10px 0px 40px 0px;
+		padding: 20px 20px;
 	}
 
 nav a{
@@ -93,46 +92,47 @@ nav{
 	background-color: rgb(203, 227, 247);
 	overflow: hidden;
 	border-bottom: 2px solid black;
-	display: block;
 	position: fixed;
   top: 0;
-  width: 70%;
 }
 
+#nav {
+	width: 900px;
+}
 .logo{
 	display: inline-block;
 	margin: 50px 0px 0px 60px;
-	margin-left: 60px;
 }
 
 
 section{
 	display: inline-block;
-	font-size: 90px;
+	font-size: 80px;
 	font-family:'Bangers';
-	margin: 60px 100px;
+	margin: 40px 10px 0px 60px;
 	box-sizing: border-box;
 }
 
-.big{display: inline-block;
+.big{
+	display: inline-block;
 	box-sizing: border-box;
 	text-align: center;
-	margin: 0px;
 }
 
 .button {
+	width: auto;
 	display: inline-block;
-font-size: 20px;
-font-family: sanserif;
-padding: 10px;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+padding: 10px 40px;
 border: 1px solid black;
 box-sizing: border-box;
-margin: 50px;
-
+margin: 0px 0px;
 }
 
 .globe{display: inline-block;
-	width: 300px;
+	width: 380px;
+	margin-left: 30px;
 }
 
 .box1{
@@ -172,8 +172,8 @@ main .middle-img{
 }
 
 
-span .cursive{font-family: 'Monserrat';
-}
+/* span .cursive{font-family: 'Monserrat';
+} */
 
 footer{
 	margin: 40px 0px 0px 10px;
@@ -182,8 +182,11 @@ footer{
 	}
 
 footer .cursive{
-	font-family: 'Monserrat';
 	margin: 20px 0px;
+}
+
+footer p {
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .copyright {
